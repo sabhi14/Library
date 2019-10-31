@@ -74,3 +74,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 ALTER TABLE `truyum`.`menu_item` 
 ADD COLUMN `me_image_url` VARCHAR(300) NULL AFTER `me_free_delivery`;
 
+CREATE TABLE `truyum`.`role` (
+  `ro_id` INT NOT NULL,
+  `ro_name` VARCHAR(45) NULL,
+  PRIMARY KEY (`ro_id`));
