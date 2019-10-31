@@ -78,3 +78,22 @@ CREATE TABLE `truyum`.`role` (
   `ro_id` INT NOT NULL,
   `ro_name` VARCHAR(45) NULL,
   PRIMARY KEY (`ro_id`));
+
+
+CREATE TABLE `truyum`.`user_role` (
+  `ur_id` INT NOT NULL,
+  `ur_us_id` INT NULL,
+  `us_ro_id` INT NULL,
+  PRIMARY KEY (`ur_id`),
+  INDEX `us_us_fk_idx` (`ur_us_id` ASC) VISIBLE,
+  INDEX `ur_ro_fk_idx` (`us_ro_id` ASC) VISIBLE,
+  CONSTRAINT `ur_us_fk`
+    FOREIGN KEY (`ur_us_id`)
+    REFERENCES `truyum`.`user` (`us_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `ur_ro_fk`
+    FOREIGN KEY (`us_ro_id`)
+    REFERENCES `truyum`.`role` (`ro_id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
