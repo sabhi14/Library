@@ -1,0 +1,17 @@
+
+INSERT INTO movie (m_title, m_box_office, m_active, m_date_of_launch, m_genre, m_has_teaser,m_image_url) VALUES 
+	('Avatar', '2787965087', 'true', '2017-03-15', 'Science Fiction', 'true','https://urlzs.com/fyJ2U'),
+	('The Avengers', '1518812988', 'true', '2017-12-27', 'Superhero', 'false','http://psce.pw/LZJJ3'), 
+	('Titanic', '2187463944', 'true', '2018-08-21', 'Romance', 'false','https://urlzs.com/rk1aT'),
+	('Jurassic World', '1671713208', 'false', '2017-07-02', 'Science Fiction', 'true','https://urlzs.com/FrA6Q'), 
+	('Avengers: End Game', '2570760348', 'true', '2022-11-02', 'Superhero', 'true','https://urlzs.com/MvWZe');
+
+
+
+INSERT INTO user (`us_id`, `us_name`) VALUES ('1', 'admin');
+INSERT INTO user (`us_id`, `us_name`) VALUES ('2', 'dhavtan');
+
+
+
+INSERT INTO `moviecruiser`.`role` (`ro_id`, `ro_name`) VALUES ('1', 'ROLE_ADMIN');
+INSERT INTO `moviecruiser`.`role` (`ro_id`, `ro_name`) VALUES ('2', 'ROLE_USER');
