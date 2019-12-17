@@ -1,0 +1,5 @@
+http://proxy.cognizant.com
+
+6050
+
+*.cognizant.com;*.cts.com;*.webex.com;outlook.office365.com;*.outlook.office.com;*.sharepoint.com;autodiscover.cognizantonline.mail.onmicrosoft.com;cognizantonline.sharepoint.com;cognizantonline-my.sharepoint.com;cognizantonline-files.sharepoint.com;cognizantonline-myfiles.sharepoint.com;*.Lync.com;*.teams.microsoft.com;teams.microsoft.com;*.tdscpc.gov.in;61.246.185.76;61.246.185.74;61.246.185.70;61.246.185.75;*.talview.com;*.proview.com;browser.pipe.aria.microsoft.com;cognizantstage.spire2grow.com;cognizant.spire2grow.com;nexus.officeapps.live.com;nexusrules.officeapps.live.com;watson.telemetry.microsoft.com;mobile.pipe.aria.microsoft.com;vortex.data.microsoft.com;10.*
